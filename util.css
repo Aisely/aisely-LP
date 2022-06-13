@@ -109,7 +109,8 @@
   }
 
   .fs-l{
-    font-size: var(--l);
+    /* font-size: var(--l); */
+    font-size: 35px;
   }
   .fs-xm{
     font-size: var(--xm);
