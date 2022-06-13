@@ -1,10 +1,25 @@
 :root {
-
+      /* COLORS */
+      --main-green: #0e8073;
+      --black: #343434;
+      --text-gray: #7d7d7d;
+      --white: #ffffff;
+      --pink: #fa809a;
+      --blue-rect: rgb(35, 70, 79);
+      --text-inactive: rgb(52, 52, 52, 0.3);
       /* COMPONENTS */
-      --img-resize: 9vw;
-      --border-small: ;
-      --border-big: ;
-      --link-icon: var('./assets/linkicon.svg')
+      --blue-rect: rgb(35, 70, 79);
+      --pink-rect: rgb(250, 128, 154, 0.4);
+      --red-rect: rgb(235, 83, 77 );
+      --cyan-rect: rgb(224, 242, 241, 0.4);
+      /* FONT SIZE */
+      --xl: 87px;
+      --l: 70px;
+      --xm: 36px;
+      --m: 32px;
+      --s: 20px;
+      /* --s: 1.6vw; */
+      --xs: 18px;
     }
     
     /* RESET CSS */
@@ -119,20 +134,10 @@
       border: 0;
     }
     
-    .fs-heading {
-      font-size: var(--fs-heading);
-    }
-    .fs-cat-heading {
-      font-size: var(--fs-cat-heading);
-    }
-    .fs-body {
-      font-size: var(--fs-body);
-    }
-    .fs-xs {
-      font-size: var(--fs-xs);
-    }
-    .fs-s {
-      font-size: var(--fs-s);
+    .small-btn{
+      font-size: var(--s);
+      background-color: var(--white);
+      padding: 0.2em 0.8em;
     }
     
     .resize {
