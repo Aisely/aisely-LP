@@ -136,8 +136,10 @@
     
     .small-btn{
       font-size: var(--s);
-      background-color: var(--white);
+      background-color: var(--main-green);
       padding: 0.2em 0.8em;
+      color: var(--white);
+      font-family: 'Roboto', sans-serif;
     }
     
     .resize {
