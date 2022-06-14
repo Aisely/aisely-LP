@@ -10,7 +10,7 @@
 </head>
 <body >
     <nav class="container">
-        <div>LOGO</div>
+        <div id="logo">LOGO</div>
         <ul class="nav_ul">
         <a href="">
             <li>Why Aisely?</li>
@@ -25,7 +25,7 @@
     </ul></nav>
     <section class="landing container flex">
         <div class="landing-wrapper">
-            <div class="landing-text"><h1>Create professional, on-brand transactional
+            <div class="landing-text"><h1 class="fs-xl">Create professional, on-brand transactional
                 documents in no time</h1></div>
             <div style="padding: 0 10vw">
                 <p class="ff-rale fs-xm">Aisely helps self-employed professionals
@@ -45,14 +45,46 @@
         <h2 class="fs-s ff-rale fw-500 text-black">Approved by 100+ professionals across several companies
         </h2>
         <img src="./partners.png"></div>
-    <section class="how-it-works">
-        <div class="flex center-all"><h2 class="fw-500 ff-noto fs-l text-black">How Aisely Works</h2></div>
-        <div>
-            <div></div>
-            <div></div>
+    <section class="how-it-works container">
+        <div class="how-it-works-heading flex center-all">
+            <h2 class="fw-500 ff-noto fs-l text-black">
+                How Aisely Works
+            </h2>
+        </div>
+        <div class="how-it-works-wrapper">
+            <div class="how-it-works-cards">
+                <button class="how-it-works-card">choose a template</button>
+                <button class="how-it-works-card">choose a template</button>
+                <button class="how-it-works-card">choose a template</button>
+                <button class="how-it-works-card">choose a template</button>
+            </div>
+            <div class="how-it-works-animation"></div>
         </div>
     </section>
-    <section class=""></section>
-    
+    <div class="testimonial flex center-all"><p class="ff-rale fw-300 text-black ">"One of a kind product" - John Doe, Stripe</p></div>
+    <section class="all-in-one container">
+        <div class="all-in-one-text">
+            <div class="all-in-one-title"><h2 class="ff-noto text-black fs-l fw-500">Aisely is<br /> all in one</h2></div>
+            <div class="all-in-one-body"><p class="ff-rale fw-600 text-black fs-m">Aisely is the ultimate
+                document automation solution/suite
+                for all types of business.</p></div>
+            <button class="small-btn">Sign up for early access</button>
+        </div>
+        <div class="all-in-one-cards">
+            <div class="all-in-one-card" style="background-color: var(--main-green);">An extensive
+                templates library
+                for invoices, quotes,
+                orders, contracts
+                and more<p class="fs-s "><a href="">Learn more</a></p></div>
+            <div class="all-in-one-card" style="background-color: var(--blue-rect)">e-stamps/<br />e-signatures<p class="fs-s "><a href="">Learn more</a></p></div>
+            <div class="all-in-one-card" style="background-color: var(--red-rect)">Collaboration with clients/teams<p class="fs-s "><a href="">Learn more</a></p></div>
+            <div class="all-in-one-card" >Collect payments<p class="fs-s "><a href="">Learn more</a></p></div>
+        </div>
+    </section>
+    <section class="faq">
+        <div></div>
+        <div></div>
+    </section>
+    <script src="./app.js"></script>
 </body>
 </html>

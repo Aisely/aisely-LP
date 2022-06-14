@@ -17,8 +17,8 @@
     --red-rect: rgb(235, 83, 77 );
     --cyan-rect: rgb(224, 242, 241, 0.4);
     /* FONT SIZE */
-    --xl: 35px;
-    --l: 30px;
+    --xl: 55px;
+    --l: 47px;
     --xm: 25px;
     --m: 25px;
     --s: 18px;
@@ -108,9 +108,11 @@
     font-family: var(--ff-robto);
   }
 
+  .fs-xl{
+    font-size: var(--xl);
+  }
   .fs-l{
-    /* font-size: var(--l); */
-    font-size: 35px;
+    font-size: var(--l);
   }
   .fs-xm{
     font-size: var(--xm);
@@ -125,6 +127,9 @@
     font-size: var(--xs);
   }
 
+  .fw-300{
+    font-weight: 300;
+  }
   .fw-400{
     font-weight: 400;
   }
@@ -205,7 +210,23 @@
     cursor: pointer;
     width: 26vw
   }
+  .how-it-works-card{
+    border: none;
+    font-size: var(--s);
+    background-color: var(--cyan-rect);
+    padding: 1vw 1.5vw;
+    color: var(--black);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 26vw;
+    height: 5vw;
+    text-align: center;
+
+  }
   .all-in-one-card{
+    margin: 20px;
     width: 20vw;
     height: 20vw;
     display: flex;
@@ -214,11 +235,13 @@
     font-family: 'Raleway';
     font-weight: 600;
     font-size: var(--xm);
-    line-height: 3vw;
-    padding: 2vw 2vw;
+    line-height: 2.5vw;
+    padding: 2.5vw;
     background-color: var(--pink);
     color: var(--white);
     border-radius: 4px;
+    text-align: center;
+    flex-direction: column;
   }
   
   .resize {
@@ -230,4 +253,9 @@
   .center-all{
     justify-content: center;
     align-items: center;
+  }
+  a{
+    color: var(--white);
+    text-decoration: underline;
+    font-weight: 500;
   }

@@ -28,7 +28,7 @@ nav{
 .landing-text{
   font-family: var(--ff-noto);
   color: var(--black);
-  font-size: var(--xl);
+  /* font-size: var(--xl); */
 }
 .landing-wrapper{
   width: 80%;
@@ -41,6 +41,7 @@ nav{
 
 /* PARTNERS */
 .partners{
+  margin-top: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,3 +52,68 @@ nav{
 }
 
 /* HOW IT WORKS */
+.how-it-works{
+  margin-top: 10vw;
+  height: 45vw;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+}
+.how-it-works-wrapper{
+  height: 100%;
+  display: flex;
+  border: 1px solid black;
+}
+.how-it-works-cards{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.how-it-works-animation{
+  width: 50%;
+  height: 100%
+}
+
+/* TESTIMONIAL */
+.testimonial{
+  font-style: italic;
+  padding: 6vw;
+  border: 1px solid
+}
+
+/* ALL IN ONE */
+.all-in-one{
+  height: 49vw;
+  display: flex;
+}
+.all-in-one-text{
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.all-in-one-title{
+  line-height: 4vw
+}
+.all-in-one-body{
+  width: 30vw;
+  line-height: 2.5vw;;
+}
+.all-in-one-cards{
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+}
+
+/* FAQs */
