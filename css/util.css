@@ -23,7 +23,7 @@
     --m: 25px;
     --s: 18px;
     /* --s: 1.6vw; */
-    --xs: 16px;
+    --xs: 15px;
   }
   
   /* RESET CSS */
@@ -137,7 +137,13 @@
     font-weight: 500;
   }
   .fw-600{
-    font-weight: 600;
+    font-weight: 500;
+  }
+  .fw-700{
+    font-weight: 700;
+  }
+  .fw-800{
+    font-weight: 800;
   }
 
   .text-black{
@@ -170,7 +176,7 @@
     /* same as padding: 0 2em */
     /* padding-inline: 2em;  */
     margin-inline: auto;
-    padding: 1rem;
+    padding: 2.7rem;
     max-width: 80rem;
   }
   

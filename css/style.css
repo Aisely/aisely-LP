@@ -53,16 +53,14 @@ nav{
 
 /* HOW IT WORKS */
 .how-it-works{
-  margin-top: 10vw;
+  margin-top: 5vw;
   height: 45vw;
-  border: solid 1px black;
   display: flex;
   flex-direction: column;
 }
 .how-it-works-wrapper{
   height: 100%;
   display: flex;
-  border: 1px solid black;
 }
 .how-it-works-cards{
   width: 50%;
@@ -82,7 +80,6 @@ nav{
 .testimonial{
   font-style: italic;
   padding: 6vw;
-  border: 1px solid
 }
 
 /* ALL IN ONE */
@@ -91,7 +88,6 @@ nav{
   display: flex;
 }
 .all-in-one-text{
-  border: 1px solid black;
   width: 50%;
   height: 100%;
   display: flex;
@@ -107,7 +103,6 @@ nav{
   line-height: 2.5vw;;
 }
 .all-in-one-cards{
-  border: 1px solid black;
   width: 50%;
   height: 100%;
   display: grid;
@@ -117,3 +112,118 @@ nav{
 }
 
 /* FAQs */
+.faq{
+  height: 40vw;
+  display: flex;
+}
+.faq-text{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7vw;
+
+}
+.faq-questions{
+  width: 50%;
+  height: 100%;
+}
+.question{
+  width: 38vw;
+  margin-top: 2.6vw;
+  cursor: pointer;
+  padding-bottom: .3vw;
+  margin-right: 5vw;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--black)
+}
+
+/* BANNER */
+.banner{
+  height: 33vw;
+}
+.banner-wrapper{
+  padding: 2vw 10vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  background-color: var(--main-green)
+}
+.banner-wrapper h2{
+  line-height: 4.9vw;
+}
+
+/* FOOTER */
+footer{
+  height: 30vw;
+  display: flex;
+  align-items: center;
+}
+.footer-wrapper{
+  color: var(--black);
+}
+.footer-wrapper ul{
+  list-style: none;
+  text-align: start;
+  padding: 0;
+  font-weight: 500;
+}
+.footer-wrapper ul li{
+  margin-top: 1vw;
+  cursor: pointer;
+}
+.social{
+  margin-left: 3vw;
+}
+
+
+
+/* HELP CENTER */
+.help{
+  height: 55vw;
+}
+.help-body{
+  display: flex;
+}
+.help-heading{
+  margin-bottom: 3vw;
+}
+.help-contact{
+  width: 50%;
+}
+.help-faq{
+  width: 50%;
+  
+}
+.help-contact-wrapper{
+  width: 34vw;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  padding: 3vw;
+  
+}
+.help-contact-wrapper form{
+  display: flex;
+  flex-direction: column;
+}
+.help-contact-wrapper form label{
+  margin-top: 1.3vw;
+  margin-bottom: .4vw;
+}
+.help-contact-wrapper form input{
+  height: 3.4vw;
+  outline: none;
+}
+.help-contact-wrapper form textarea{
+  resize: none;
+  outline: none;
+}
+.help-contact-wrapper form button{
+  margin-top: 1.3vw; 
+}
