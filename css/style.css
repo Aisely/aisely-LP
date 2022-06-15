@@ -25,7 +25,6 @@ nav{
   position: absolute;
   width: 100vw;
   height: 100vh;
-  border: 1px solid black;
   padding: 4vw 13vw;
   display: flex;
 }
@@ -33,7 +32,6 @@ nav{
   background-color: var(--white);
   padding: 4vw;
   width: 50%;
-  border: 1px solid black;
   height: 100%;
   flex-direction: column;
 }
