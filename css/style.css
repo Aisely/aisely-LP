@@ -19,14 +19,13 @@ nav{
 
 /* WEB MVP FORM.................. */
 .web-mvp{
+  display: none;
   background-color: var(--text-inactive);
   backdrop-filter: blur(3px);
   top: 0;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+  position: sticky;
   padding: 4vw 13vw;
-  display: flex;
+  height: 100vh;
 }
 .web-mvp-form{
   background-color: var(--white);
@@ -59,8 +58,8 @@ nav{
 
 .web-mvp-img{
   width: 50%;
-  border: 1px solid black;
   height: 100%;
+  background-color: var(--cyan);
 }
 /* LANDING......................... */
 .landing{
