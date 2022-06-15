@@ -3,13 +3,14 @@
     --main-green: #0e8073;
     --black: #343434;
     --text-gray: #7d7d7d;
+    --gray: #E4E4E4;
     --white: #ffffff;
     --pink: #fa809a;
     --blue-rect: rgb(35, 70, 79);
     --text-inactive: rgb(52, 52, 52, 0.3);
     /* FONT */
     --ff-roboto: 'Roboto', sans-serif;
-    --ff-noto: 'Noto serif', sans-serif;
+    --ff-noto: 'Poppins', sans-serif;
     --ff-rale: 'Raleway', sans-serif;
     /* COMPONENTS */
     --blue-rect: rgb(35, 70, 79);
@@ -152,6 +153,9 @@
   .text-white{
     color: var(--white);
   }
+  .text-gray{
+    color: var(--text-gray);
+  }
   
   .flex {
     display: flex;
@@ -197,7 +201,7 @@
     background-color: var(--main-green);
     padding: 1em 1.5em;
     color: var(--white);
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--ff-rale);
     font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
@@ -210,7 +214,7 @@
     background-color: var(--main-green);
     padding: 1em 1.5em;
     color: var(--white);
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--ff-rale);
     font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
@@ -219,10 +223,10 @@
   .how-it-works-card{
     border: none;
     font-size: var(--s);
-    background-color: var(--cyan-rect);
+    background-color: var(--gray);
     padding: 1vw 1.5vw;
     color: var(--black);
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--ff-rale);
     font-weight: 600;
     border-radius: 4px;
     cursor: pointer;
@@ -264,4 +268,7 @@
     color: var(--white);
     text-decoration: underline;
     font-weight: 500;
+  }
+  .row-reverse{
+    flex-direction: row-reverse;
   }

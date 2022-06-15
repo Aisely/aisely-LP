@@ -17,6 +17,53 @@ nav{
   font-size: var(--s)
 }
 
+/* WEB MVP FORM.................. */
+.web-mvp{
+  background-color: var(--text-inactive);
+  backdrop-filter: blur(3px);
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+  padding: 4vw 13vw;
+  display: flex;
+}
+.web-mvp-form{
+  background-color: var(--white);
+  padding: 4vw;
+  width: 50%;
+  border: 1px solid black;
+  height: 100%;
+  flex-direction: column;
+}
+.web-mvp-form h2{
+  line-height: 3.7vw;
+  width: 30vw;
+}
+.web-mvp-form p{
+  margin-top: .2vw;
+  width: 25vw;
+}
+.web-mvp-form form{
+  display: flex;
+  flex-direction: column;
+}
+.web-mvp-form label{
+  margin-top: 1vw;
+  margin-bottom: .6vw;
+}
+.web-mvp-form input{
+  height: 4vw;
+  outline: none;
+}
+
+
+.web-mvp-img{
+  width: 50%;
+  border: 1px solid black;
+  height: 100%;
+}
 /* LANDING......................... */
 .landing{
   width: 100%;
@@ -139,7 +186,19 @@ nav{
   align-items: center;
   border-bottom: 1px solid var(--black)
 }
-
+/* MVP */
+.mvp{
+  height: 40vw;
+}
+.mvp-text{
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.mvp-text h1{
+  line-height: 4.9vw;
+}
 /* BANNER */
 .banner{
   height: 33vw;
@@ -202,11 +261,11 @@ footer{
 }
 .help-contact-wrapper{
   width: 34vw;
-  border: 1px solid;
+  /* border: 1px solid; */
   display: flex;
   flex-direction: column;
   padding: 3vw;
-  
+  background-color: var(--cyan-rect);
 }
 .help-contact-wrapper form{
   display: flex;
@@ -226,4 +285,36 @@ footer{
 }
 .help-contact-wrapper form button{
   margin-top: 1.3vw; 
+}
+
+
+/* WHY AISELY */
+.why-aisely{
+
+}
+.why-aisely-card{
+  padding: 4vw;
+  border: 1px solid black;
+  height: 40vw;
+  display: flex;
+  margin-bottom: 2vw;
+}
+.why-aisely-card-text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.why-aisely-card-heading{
+  line-height: 5vw;
+  margin-bottom: 1vw;
+}
+.why-aisely-card-img img{
+  width: 25vw;
+}
+.why-aisely-card-img{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
