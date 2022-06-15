@@ -27,6 +27,12 @@ nav{
   padding: 4vw 13vw;
   height: 100vh;
 }
+.web-mvp-wrapper{
+  display: flex;
+  max-height: 50vw;
+  height: 100%;
+  width: 100%;
+}
 .web-mvp-form{
   background-color: var(--white);
   padding: 4vw;
@@ -80,7 +86,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  gap: 2rem;
+  gap: 1vw;
 }
 
 /* PARTNERS */
@@ -160,6 +166,18 @@ nav{
   height: 40vw;
   display: flex;
 }
+.faq-question{
+ justify-content: space-between ;
+ width: 100%;
+}
+.faq-answer .answer{
+  max-height: 3vw;
+}
+.faq-answer{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in;
+}
 .faq-text{
   width: 50%;
   height: 100%;
@@ -174,6 +192,8 @@ nav{
   height: 100%;
 }
 .question{
+  display: flex;
+  gap: 0.7rem;
   width: 38vw;
   margin-top: 2.6vw;
   cursor: pointer;
@@ -181,7 +201,8 @@ nav{
   margin-right: 5vw;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--black)
+  border-bottom: 1px solid var(--black);
+  flex-direction: column;
 }
 /* MVP */
 .mvp{
@@ -241,7 +262,7 @@ footer{
 
 /* HELP CENTER */
 .help{
-  height: 55vw;
+  height: 77vw;
 }
 .help-body{
   display: flex;

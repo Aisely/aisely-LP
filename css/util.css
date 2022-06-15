@@ -20,13 +20,13 @@
     --red-rect: rgb(235, 83, 77 );
     --cyan-rect: rgb(224, 242, 241, 0.4);
     /* FONT SIZE */
-    --xl: 55px;
-    --l: 47px;
-    --xm: 25px;
-    --m: 25px;
-    --s: 18px;
+    --xl: 4vw;
+    --l: 3.5vw;
+    --xm: 1.8vw;
+    --m: 1.5vw;
+    --s: 1.3vw;
     /* --s: 1.6vw; */
-    --xs: 15px;
+    --xs: 1vw;
   }
   
   /* RESET CSS */
@@ -238,7 +238,7 @@
 
   }
   .all-in-one-card{
-    margin: 20px;
+    margin: 1vw;
     width: 20vw;
     height: 20vw;
     display: flex;
