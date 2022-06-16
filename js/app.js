@@ -55,15 +55,22 @@ for(let i = 0;i < largeBtn.length; i++){
 
 
 // --------------------------FAQ DROP DOWN
-const question = document.querySelectorAll('.faq-question')
-const answer = document.querySelectorAll('.faq-answer')
+const faqs = document.querySelectorAll('.question')
 console.log(faqs)
+
 faqs.forEach(faq => {
-  console.log("work mfffff")
 faq.addEventListener("click", () => {
-console.log("work nowwwww")
+  console.log("ran")
   faq.classList.toggle("active")
 })
 })
 // --------------------------FAQ DROP DOWN
 
+//------------------ALERT POPUP
+// const alertPopUp = document.querySelector('.alert-pop-up');
+
+// alert.addEventListener('mouseover', () => {
+// alertPopUp.classList.toggle("active");
+
+// });
+//------------------ALERT POPUP
