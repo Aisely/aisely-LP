@@ -1,3 +1,18 @@
+//---------------HAMBURGER FUNCTIONALITY
+const hamClose = document.querySelector('.hamburger-close');
+const hamOpen = document.querySelector('.hamburger-open');
+const nav = document.querySelector('.nav')
+
+hamOpen.addEventListener('click', () =>{
+  nav.style.right = "0px"
+  console.log('letnavwork')
+})
+hamClose.addEventListener('click', () =>{
+  nav.style.right = "-100vw";
+  console.log('letnavwork')
+})
+
+
 
 // --------------------------WEBMVP TOGGLE FORM
 const webMvp = document.querySelector('.web-mvp');

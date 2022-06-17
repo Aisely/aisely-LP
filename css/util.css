@@ -339,8 +339,8 @@ transition: .2s;
       --red-rect: rgb(235, 83, 77 );
       --cyan-rect: rgb(224, 242, 241, 0.4);
       /* FONT SIZE */
-      --xl: 10vw;
-      --l: 8vw;
+      --xl: 9vw;
+      --l: 9vw;
       --xm: 5vw;
       --m: 5vw;
       --s: 5vw;
@@ -498,11 +498,7 @@ transition: .2s;
     }
     
     .container {
-      /* same as padding: 0 2em */
-      /* padding-inline: 2em;  */
-      margin-inline: auto;
-      padding: 2.7rem;
-      max-width: 80rem;
+      padding: 1.7rem;
     }
     
     .sr-only {
@@ -518,70 +514,26 @@ transition: .2s;
     }
     
     .small-btn{
-      font-size: var(--s);
-      background-color: var(--main-green);
-      padding: 1em 1.5em;
-      color: var(--white);
-      font-family: var(--ff-rale);
-      font-weight: 600;
-      border-radius: 4px;
-      cursor:pointer;
-      border: none;
-      width: 500px!important;
-      transition: .2s;
-  
+      width: 100%;
     }
     .large-btn{
-      border: none;
-      font-size: var(--m);
-      background-color: var(--main-green);
-      padding: 1em 1.5em;
-      color: var(--white);
-      font-family: var(--ff-rale);
-      font-weight: 600;
-      border-radius: 4px;
-      cursor: pointer;
-      width: 26vw;
-      transition: .2s;
+      width: 100%;
     }
     .large-btn:hover{
       transform: scale(1.07);
       transition: .2s;
     }
     .how-it-works-card{
-      border: none;
-      font-size: var(--s);
-      background-color: var(--gray);
-      padding: 1vw 1.5vw;
-      color: var(--black);
-      font-family: var(--ff-rale);
-      font-weight: 600;
-      border-radius: 4px;
-      cursor: pointer;
-      width: 26vw;
-      height: 5vw;
-      text-align: center;
-  
+      padding: 1em 1.5em;
+      height: 20vw;
+      width: 100%;
     }
     .all-in-one-card{
-      margin: 1vw;
-      width: 20vw;
-      height: 20vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-family: 'Raleway';
-      font-weight: 600;
-      font-size: var(--xm);
-      line-height: 2.5vw;
-      padding: 2.5vw;
-      background-color: var(--pink);
-      color: var(--white);
-      border-radius: 4px;
-      text-align: center;
-      flex-direction: column;
-      transition: .2s;
-      cursor: pointer;
+      height: 30vh;
+      width: 100%;
+      line-height: 8vw;
+      padding: 1em 1.5em;
+      margin-top: 10vw;
     }
     .all-in-one-card:hover{
       transform: scale(1.07);
