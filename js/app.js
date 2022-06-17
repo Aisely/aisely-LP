@@ -14,7 +14,7 @@ hamClose.addEventListener('click', () =>{
 
 
 
-// --------------------------WEBMVP TOGGLE FORM
+// --------WEBMVP TOGGLE FORM
 const webMvp = document.querySelector('.web-mvp');
 const smallBtn = document.querySelectorAll('.small-btn');
 const largeBtn = document.querySelectorAll('.large-btn');

@@ -70,7 +70,12 @@ nav{
   outline: none;
 }
 
-
+.close-btn{
+  cursor: pointer;
+  position: absolute;
+  top: 1vw;
+  right: 1vw
+}
 .web-mvp-img{
   width: 50%;
   height: 100%;
@@ -424,6 +429,38 @@ footer{
 
 /* MEDIA QUERIES */
 @media (max-width: 700px) {
+  .close-btn{
+    width: 10vw;
+    top:3vw;
+    right:3vw;
+  }
+  .web-mvp{
+    padding: 6vw;
+  }
+  .web-mvp-wrapper{
+    flex-direction: column-reverse;
+    max-height: 200vw;
+  }
+  .web-mvp-form{
+    width: 100%;
+  }
+  .web-mvp-form h2{
+    width: 100%;
+    line-height: inherit;
+  }
+  .web-mvp-form p{
+    width: 100%;
+    line-height: inherit;
+  }
+  .web-mvp-img{
+    width: 100%;
+  }
+  .water-mark-logo{
+    width:13vw;
+    position: absolute;
+    top: 7vw;
+    left: 7vw;
+  }
   nav{
     background-color: var(--white);
     position: absolute;
@@ -444,7 +481,7 @@ footer{
     margin-top: 5vw;
   }
   #logo{
-    width: 15vw;
+    width: 13vw;
   }
   .hamburger-close{
     display: block;
@@ -462,7 +499,9 @@ footer{
     cursor: pointer;
     width: 10vw;
   }
-
+  .nav-btn{
+    display: none;
+  }
   /* LANDING MOBILE */
   .landing{
     height: 100vh;
@@ -565,7 +604,7 @@ footer{
   .mvp{
     height: 200vw;
     flex-direction: column-reverse;
-    margin-top: 25vw;
+    margin-top: 10vw;
     background-color: var(--main-green);
     justify-content: center;
     align-items: center;
@@ -580,6 +619,7 @@ footer{
   }
   .mvp img{
     width: 60vw;
+    margin-top: 14vw;
   }
 
   /* BANNER MOBILE */
@@ -595,4 +635,40 @@ footer{
   footer{
     height: 50vh;
   }
+
+
+
+
+
+  /* PAGE */
+  /* WHY AISELY  */
+  .help-heading{
+    margin-top: 30vw;
+    flex-direction: column-reverse;
+  }
+  .why-aisely-card{
+    border: none;
+    margin-top: 30px;
+    padding: 0;
+    overflow: hidden;
+    height: 150vw;
+    flex-direction: column-reverse;
+  }
+  .why-aisely-card-text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .why-aisely-card-heading{
+    line-height: inherit;
+    margin-bottom: 30px;;
+
+  }
+  .why-aisely-card-img{
+    display: flex;
+    display: none;
+    align-items: center;
+    width: 100%;
+  }
+
 }
