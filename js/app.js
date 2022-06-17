@@ -68,7 +68,7 @@ for(let i = 0;i < largeBtn.length; i++){
 // --------------------------WEBMVP TOGGLE FORM
 
 
-
+//----------------------HOW IT WORKS ANIMATION
 // --------------------------FAQ DROP DOWN
 const faqs = document.querySelectorAll('.question')
 console.log(faqs)

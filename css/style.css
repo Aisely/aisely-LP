@@ -1,11 +1,22 @@
+#logo{
+  width: 4vw;
+}
 nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 8vw;
 }
+.nav-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .nav img{
   
+}
+.water-mark-logo{
+  display:none;
 }
 .hamburger-close{
   display: none;
@@ -387,6 +398,9 @@ footer{
 .why-aisely{
 
 }
+.why-aisely-img{
+  width: 40vw;
+}
 .why-aisely-card{
   padding: 4vw;
   border: 1px solid black;
@@ -429,6 +443,9 @@ footer{
 
 /* MEDIA QUERIES */
 @media (max-width: 700px) {
+  .water-mark-logo{
+    display: block;
+  }
   .close-btn{
     width: 10vw;
     top:3vw;
@@ -461,6 +478,8 @@ footer{
     top: 7vw;
     left: 7vw;
   }
+
+  /*  NAV MB */
   nav{
     background-color: var(--white);
     position: absolute;
@@ -473,7 +492,10 @@ footer{
     right: -100vw;
     transition: 1s;
   }
-  .nav_ul{
+  .nav-wrapper{
+    display: block;
+    width: auto;
+  }  .nav_ul{
     flex-direction: column;
     align-items: flex-start;
     gap: 2rem;
@@ -519,6 +541,13 @@ footer{
     padding: 0;
   }
   /* LANDING MOBILE */
+
+  /* PARTNERS MOBILE */
+  .partners h2{
+    text-align: center;
+  }
+  /* PARTNERS MOBILE */
+
 
   /* HOW IT WORKS MOBILE */
   .how-it-works{
