@@ -167,6 +167,16 @@ nav{
   display: flex;
   flex-direction: column;
 }
+.how-it-works-animation-img{
+  width: 20vw;
+  height: 100%;
+}
+.how-it-works-animation-text{
+  text-align: center;
+  font-size: var(--s);
+  color: var(--black);
+  font-family: var(--ff-rale);
+}
 .how-it-works-wrapper{
   height: 100%;
   display: flex;
@@ -182,7 +192,11 @@ nav{
 }
 .how-it-works-animation{
   width: 50%;
-  height: 100%
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* TESTIMONIAL */
@@ -481,8 +495,10 @@ footer{
 
   /*  NAV MB */
   nav{
+    display: none;
     background-color: var(--white);
     position: absolute;
+    top: 0;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -493,6 +509,7 @@ footer{
     transition: 1s;
   }
   .nav-wrapper{
+    padding: 5vw;
     display: block;
     width: auto;
   }  .nav_ul{
@@ -514,6 +531,7 @@ footer{
     cursor: pointer;
   }
   .hamburger-open{
+    z-index: -1;
     display: block;
     position: absolute;
     right: 7vw;
@@ -530,6 +548,11 @@ footer{
   }
 
   /* LANDING MOBILE */
+  .on-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   .landing-wrapper{
     width: 100%;
     gap: 9vw;
@@ -600,8 +623,14 @@ footer{
 
 
   /* FAQ  MOBILE*/
+  .faq-answer p{
+    line-height: 7vw;
+  }
+  .question.active .faq-answer {
+    max-height: 90vw;
+  }
   .faq{
-    height: 200vw;
+    height: auto;
     flex-direction: column;
     position: relative;
   }
@@ -622,8 +651,8 @@ footer{
   }
   .faq-text-sec{
     /* display: none; */
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
   }
   .question{
     width: 100%;
@@ -700,4 +729,43 @@ footer{
     width: 100%;
   }
 
+
+
+
+  /* HELP MOBILE */
+  .help{
+    height: 500vw;
+  }
+  .help-body{
+    flex-direction: column;
+  }
+  .help-contact{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .help-contact-wrapper{
+    width: 100%;
+    padding: 5vw;
+  }
+  .help-contact-wrapper h1{
+    text-align: center;
+    margin-bottom: 10vw;
+    font-size: var(--l)
+  }
+  .help-contact-wrapper form input{
+    height: 17vw;
+    font-size: var(--s);
+  }
+  .help-contact-wrapper form label{
+    font-size: var(--s);
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .help-contact-wrapper form button{
+    margin-top: 20px;
+  }
+  .help-faq{
+    width: 100%;
+    margin-top: 20vw;
+  }
 }

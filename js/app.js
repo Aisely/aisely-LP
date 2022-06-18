@@ -4,11 +4,22 @@ const hamOpen = document.querySelector('.hamburger-open');
 const nav = document.querySelector('.nav')
 
 hamOpen.addEventListener('click', () =>{
-  nav.style.right = "0px"
+  nav.style.display = 'flex'
+  setTimeout(
+    () => {
+      nav.style.right = "0px"
+
+    }
+  , 50)
   console.log('letnavwork')
 })
 hamClose.addEventListener('click', () =>{
   nav.style.right = "-100vw";
+  setTimeout(
+    () => {
+      nav.style.display = 'none'
+    }
+  , 1000)
   console.log('letnavwork')
 })
 
@@ -69,14 +80,61 @@ for(let i = 0;i < largeBtn.length; i++){
 
 
 //----------------------HOW IT WORKS ANIMATION
+const cardTemplate = document.querySelector('.card1')
+const cardInput = document.querySelector('.card2')
+const cardGenerate = document.querySelector('.card3')
+const cardShare = document.querySelector('.card4')
+const imgDiv = document.querySelector('.how-it-works-animation-img')
+const text = document.querySelector('.how-it-works-animation-text')
+
+cardTemplate.addEventListener('click', () => {
+  text.innerHTML =''
+  text.innerHTML ='Your first step into getting your outstanding transactional document creted would  be to choose from our rich stock of high-quality professional templaets fit for your business and transactional needs.'
+  imgDiv.src = "../img/templates-ani.svg"
+  console.log('card 1 works')
+})
+cardInput.addEventListener('click', () => {
+  text.innerHTML =''
+  text.innerHTML ='Fill in only particular details of the transaction such as clients details, product(s) or service(s), price and so on, and Aisely helps with the rest.  '
+  imgDiv.src = ""
+  imgDiv.src = "../img/input-ani.svg"
+  console.log('card 2 works')
+})
+cardGenerate.addEventListener('click', () => {
+  text.innerHTML =''
+  text.innerHTML ='Generate your document at just the click of a button and preview it. The drafting and design work will be Aiselys while yours will be to await and get an exceptional result within a couple of seconds.'
+  imgDiv.src = ""
+  imgDiv.src = "../img/generate-ani.svg"
+  console.log('card 3 works')
+})
+cardShare.addEventListener('click', () => {
+  text.innerHTML =''
+  text.innerHTML ='Now, you have your document. Sign and share with your client(s), partner(s) or any other party involved in the transaction, and get their signatures too. Aisely lets you do these digitally and seamlessly.'
+  imgDiv.src = ""
+  imgDiv.src = "../img/share-ani.svg"
+  console.log('card 4 works')
+})
+
+//----------------------HOW IT WORKS ANIMATION
+
+
+
+
+
+
 // --------------------------FAQ DROP DOWN
 const faqs = document.querySelectorAll('.question')
 console.log(faqs)
 
 faqs.forEach(faq => {
 faq.addEventListener("click", () => {
+  setTimeout(
+    () => {
+      faq.classList.remove("active") 
+    }
+    , 20000)
+    faq.classList.toggle("active")
   console.log("ran")
-  faq.classList.toggle("active")
 })
 })
 // --------------------------FAQ DROP DOWN

@@ -498,9 +498,11 @@ transition: .2s;
     }
     
     .container {
-      padding: 1.7rem;
+      padding: 1.3rem;
     }
-    
+    section{
+      margin-top: 20vw;
+    }
     .sr-only {
       position: absolute;
       width: 1px;
