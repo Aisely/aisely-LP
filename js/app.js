@@ -86,6 +86,10 @@ const cardGenerate = document.querySelector('.card3')
 const cardShare = document.querySelector('.card4')
 const imgDiv = document.querySelector('.how-it-works-animation-img')
 const text = document.querySelector('.how-it-works-animation-text')
+const card1 = document.querySelector('card1')
+const card2 = document.querySelector('card2')
+const card3 = document.querySelector('card3')
+const card4 = document.querySelector('card4')
 
 cardTemplate.addEventListener('click', () => {
   text.innerHTML =''
@@ -114,6 +118,43 @@ cardShare.addEventListener('click', () => {
   imgDiv.src = "../img/share-ani.svg"
   console.log('card 4 works')
 })
+
+//how it works auto change
+console.log(card1, "card 1 is hrerererererer")
+const autoChange = () => {
+  setTimeout(() =>{
+    console.log('choose templae')
+    text.innerHTML =''
+    text.innerHTML ='Your first step into getting your outstanding transactional document creted would  be to choose from our rich stock of high-quality professional templaets fit for your business and transactional needs.'
+    imgDiv.src = "../img/templates-ani.svg"
+  }, 4000)
+  setTimeout(() =>{
+    console.log('fill details')
+    text.innerHTML =''
+    text.innerHTML ='Fill in only particular details of the transaction such as clients details, product(s) or service(s), price and so on, and Aisely helps with the rest.  '
+    imgDiv.src = ""
+    imgDiv.src = "../img/input-ani.svg"
+  }, 8000)
+  setTimeout(() =>{
+    console.log('generate document')
+    text.innerHTML =''
+  text.innerHTML ='Generate your document at just the click of a button and preview it. The drafting and design work will be Aiselys while yours will be to await and get an exceptional result within a couple of seconds.'
+  imgDiv.src = ""
+  imgDiv.src = "../img/generate-ani.svg"
+  }, 12000)
+  setTimeout(() =>{
+    console.log('sign and share')
+    text.innerHTML =''
+    text.innerHTML ='Now, you have your document. Sign and share with your client(s), partner(s) or any other party involved in the transaction, and get their signatures too. Aisely lets you do these digitally and seamlessly.'
+    imgDiv.src = ""
+    imgDiv.src = "../img/share-ani.svg"
+  }, 16000)
+
+}
+
+// setInterval(() => {
+//   autoChange()
+// }, 4000)
 
 //----------------------HOW IT WORKS ANIMATION
 

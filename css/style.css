@@ -318,6 +318,10 @@ line-height: 2vw;;
 .mvp-text h1{
   line-height: 4.9vw;
 }
+.amazon-btn{
+  width: 20vw;
+  margin-top: 2vw;
+}
 /* BANNER */
 .banner{
   height: 33vw;
