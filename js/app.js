@@ -192,8 +192,8 @@ var imgData = [
                         console.log(i - 1)
 
                       }
-                      ,5900)
-                  }, 6000); // 1 second (in milliseconds)
+                      ,4900)
+                  }, 5000); // 1 second (in milliseconds)
                   // card[i].classList.toggle('.active')
                   
                   
