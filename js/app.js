@@ -121,6 +121,10 @@ cardShare.addEventListener('click', () => {
 
 //how it works auto change
 console.log(card1, "card 1 is hrerererererer")
+
+const imgData = () => {
+  
+}
 const autoChange = () => {
   setTimeout(() =>{
     console.log('choose templae')
