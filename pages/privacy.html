@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../img/logofinal.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"href="../css/style.css">
     <link rel="stylesheet"href="../css/util.css">
@@ -18,17 +19,25 @@
                     <h2 class="ff-noto text-black fs-l fw-600">Become our first users!</h2>
                     <p class="ff-noto text-black fs-s">Be the first to be notified once we launch our Web app</p>
                 </div>
-                <form class="text-black fs-s ff-rale">
+                <form action="https://formspree.io/f/mbjwejgy"
+                method="POST"class="text-black fs-s ff-rale">
                     <label>First Name</label>
                     <input type="text" name="First Name" id="">
+                    <label>Industry</label>
+                    <select style="cursor: pointer" name="industry" id="industry">
+                        <option value="Freelance">Freelance</option>
+                        <option value="Logistic/Shipping">Logistic/Shipping</option>
+                        <option value="Retail businesses">Retail businesses</option>
+                        <option value="Real Estate">Real Estate</option>
+                      </select>
                     <label>Your Email</label>
                     <input type="email" name="Email" id="">
-                    <div class="flex center-all"><button style="margin-top: 1.4vw;"class="small-btn">send</button></div>
+                    <div class="flex center-all"><button class="web-mvp-form-btn small-btn">send</button></div>
                 </form >
             </div>
             <div class="web-mvp-img flex center-all" style="position: relative;">
-                <img class="close-btn"style="cursor: pointer;position: absolute;top: 1vw;right: 1vw"src="../img/close-btn.svg" alt="" srcset="">
-                <img src="../img/webmvp.svg" alt="">
+                <img class="close-btn"src="../img/close-btn.svg" alt="" srcset="">
+                <img class="web-mvp-img"src="../img/webmvp.svg" alt="">
             </div>
         </div>
     </div>
@@ -51,6 +60,12 @@
         </a>
         <button class="small-btn nav-btn">Sign up for early access</button>
     </ul></nav>
+    <section class="banner container flex center-all">
+        <div class="banner-wrapper flex">
+            <div><h2 class="text-white ff-rale fw-600">Deliver excellent professional transactional documents in no time!</h2></div>
+            <button class="small-btn" style="background-color: var(--red-rect); color: var(--white)">Sign up for early access</button>
+        </div>
+    </section>
     <footer class="footer flex container">
         <div class="footer-wrapper">
             <h2 class="fs-s ff-rale fw-600 text-black" style="font-weight: 600 ">Aisely 2022&copy;</h2>

@@ -216,6 +216,24 @@
     transform: scale(1.1);
     transition: .2s;
   }
+  .help-btn{
+    font-size: var(--s);
+    background-color: var(--main-green);
+    padding: 1em 1.5em;
+    color: var(--white);
+    font-family: var(--ff-rale);
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    width: 19vw;
+    transition: .2s;
+
+  }
+  .help-btn:hover{
+    transform: scale(1.1);
+    transition: .2s;
+  }
   .large-btn{
     border: none;
     font-size: var(--m);
@@ -238,7 +256,7 @@
     font-size: var(--s);
     background-color: var(--gray);
     padding: 1vw 1.5vw;
-    color: var(--black);
+    color: var(--white);
     font-family: var(--ff-rale);
     font-weight: 600;
     border-radius: 4px;
@@ -246,7 +264,7 @@
     width: 26vw;
     height: 5vw;
     text-align: center;
-
+    transition: .5s;
   }
   .all-in-one-card{
     margin: 1vw;
@@ -516,6 +534,9 @@ transition: .2s;
     }
     
     .small-btn{
+      width: 100%;
+    }
+    .help-btn{
       width: 100%;
     }
     .large-btn{
