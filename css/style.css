@@ -3,6 +3,7 @@
 }
 nav{
   display: flex;
+  position: sticky;
   justify-content: space-between;
   align-items: center;
   height: 8vw;
@@ -348,18 +349,30 @@ line-height: 2vw;;
   height: 33vw;
 }
 .banner-wrapper{
-  padding: 2vw 10vw;
+  padding: 2vw 4vw;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
+  flex-direction: row;
   width: 100vw;
   height: 100%;
-  background-color: var(--cyan-rect)
+  background-color: var(--main-green)
 }
 .banner-wrapper h2{
   line-height: 4.9vw;
-  font-size: var(--xl)
+  margin-bottom: 2vw;
+}
+.banner-img{
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text{
+  width: 60%;
+}
+.banner-text h2{
+  font-size: calc(var(--l) - 2px);
+  line-height: 1.2;
 }
 
 /* FOOTER */
@@ -739,13 +752,26 @@ footer{
 }
   /* BANNER MOBILE */
   .banner{
-    height: 150vw;
+    height: 100vw;
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-wrapper{
+    border: 1px solid red;
+    text-align: center;
   }
   .banner-wrapper h2{
     line-height: 10vw;
-    font-size: calc(var(--l) - 5px)
+    font-size: calc(var(--l) - 1px)
   }
-
+  .banner-img{
+    display: none;
+  }
+  .banner-text{
+    width: auto;
+  }
   /* FOOTER MOBILE */
   footer{
     height: 50vh;
