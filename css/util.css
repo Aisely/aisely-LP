@@ -63,6 +63,10 @@
     font-weight: 400; /* remove default */
   }
   
+  h2{
+    font-weight: 800;
+  }
+
   a {
     text-decoration: none;
   }
@@ -137,7 +141,7 @@
     font-weight: 400;
   }
   .fw-500{
-    font-weight: 500;
+    font-weight: 600; /*note that 500 *= 600*/
   }
   .fw-600{
     font-weight: 500;

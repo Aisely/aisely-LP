@@ -45,7 +45,7 @@ nav{
   top: 0;
   position: sticky;
   padding: 0vw 13vw;
-  height: 100vh;
+  height: 100%;
   z-index: 1000;
 }
 .web-mvp-wrapper{
@@ -95,7 +95,8 @@ nav{
 }
 .web-mvp-img{
   width: 50%;
-  height: 100%;
+  /* height: 100%; */
+  height: auto;
   background-color: var(--cyan);
 }
 .web-mvp-img .web-mvp-img{
@@ -485,10 +486,12 @@ footer{
   .web-mvp{
     padding: 6vw;
     z-index: 1000;
+    height: auto;
   }
   .web-mvp-wrapper{
     flex-direction: column-reverse;
-    max-height: 200vw;
+    max-height: none;
+    height: auto;
   }
   .web-mvp-form{
     width: 100%;
