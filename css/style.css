@@ -317,7 +317,11 @@ line-height: 2vw;;
   height: 40vw;
 }
 .mvp img{
+  width: 33vw;
+}
+.amazon-dark{
   width: 18vw;
+  margin-top: 1vw
 }
 .mvp-text{
   height: 100%;
