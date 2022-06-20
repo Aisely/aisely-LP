@@ -161,7 +161,6 @@ nav{
 }
 /* PARTNERS */
 .partners{
-  margin-top: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,7 +172,6 @@ nav{
 
 /* HOW IT WORKS */
 .how-it-works{
-  margin-top: 5vw;
   height: 45vw;
   display: flex;
   flex-direction: column;
