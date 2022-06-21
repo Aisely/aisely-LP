@@ -48,7 +48,7 @@ function Sequence(i) {
           problemText.innerHTML = problemTexts[i].word
             Sequence(++i);
            
-          }, 2600); // 1 second (in milliseconds)
+          }, 2000); // 1 second (in milliseconds)
           
         } else if (problemTexts.length == i) { // Loop
           Sequence(0);

@@ -280,8 +280,8 @@
     align-items: center;
     font-family: 'Raleway';
     font-weight: 600;
-    font-size: var(--xm);
-    line-height: 2.5vw;
+    font-size: var(--s);
+    line-height: 2vw;
     padding: 2.5vw;
     background-color: var(--pink);
     color: var(--white);

@@ -174,13 +174,13 @@ nav{
 
 /* PROBLEM */
 .problem{
-  height: 40vw;
+  height: auto;
 }
 .problem-wrapper{
   overflow: hidden;
   position: relative;
   background-color: var(--main-green);
-  height: 100%;
+  height: 30vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,6 +205,26 @@ nav{
 }
 .problem-ani{
   border-bottom: 2px solid var(--white);
+}
+.solution-wrapper{
+  height: 40vw;
+  background-color: var(--blue-rect);
+  display: flex;
+  gap: 4rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.solution-ani-wrapper{
+  display: flex;
+  width: 100%;
+}
+.solution-ani-wrapper img{
+  width: 20vw;
+}
+.solution-text{
+  width: 40%;
+  text-align: center;
 }
 /* PROBLEM */
 
@@ -279,7 +299,9 @@ nav{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-
+}
+.all-in-one-card p{
+  font-size: var(--s);
 }
 
 /* FAQs */
