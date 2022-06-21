@@ -183,16 +183,22 @@ nav{
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   overflow: hidden;
 }
-.problem-wrapper img{
+.problem-wrapper .many-docs-down{
   position: absolute;
   left: 0;
-  bottom: -25vw;
+  bottom: -35vw;
+}
+
+.problem-wrapper .many-docs-up{
+  position: absolute;
+  left: 0;
+  top: -35vw;
+  transform: rotate(180deg);
 }
 .problem-text{
-  margin-top: 7vw;
   width: 60vw;;
   font-size: calc(var(--l) - 8px);
   text-align: center;
