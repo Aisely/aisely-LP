@@ -172,6 +172,36 @@ nav{
   width: 70vw
 }
 
+/* PROBLEM */
+.problem{
+  height: 40vw;
+}
+.problem-wrapper{
+  overflow: hidden;
+  position: relative;
+  background-color: var(--main-green);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.problem-wrapper img{
+  position: absolute;
+  left: 0;
+  bottom: -25vw;
+}
+.problem-text{
+  margin-top: 7vw;
+  width: 60vw;;
+  font-size: calc(var(--l) - 8px);
+  text-align: center;
+}
+.problem-ani{
+  border-bottom: 2px solid var(--white);
+}
+/* PROBLEM */
+
 /* HOW IT WORKS */
 .how-it-works{
   height: 45vw;

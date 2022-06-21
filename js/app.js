@@ -25,7 +25,40 @@ hamClose.addEventListener('click', () =>{
 })
 
 
+// --------------------------PROBLEM CAHNGE TEXT
+const problemText = document.querySelector('.problem-ani')
 
+const problemTexts = [
+  {
+    word: 'highly-tasking'
+  },
+  {
+    word: 'complex-work'
+  },
+  {
+    word: 'time-consuming'
+  },
+]
+
+Sequence(0);
+function Sequence(i) {
+  
+  if (problemTexts.length > i) {
+        setTimeout(function() {
+          problemText.innerHTML = problemTexts[i].word
+            Sequence(++i);
+           
+          }, 2600); // 1 second (in milliseconds)
+          
+        } else if (problemTexts.length == i) { // Loop
+          Sequence(0);
+
+    }
+
+}
+
+
+// --------------------------PROBLEM CAHNGE TEXT
 
 // --------------------------FAQ DROP DOWN
 const faqs = document.querySelectorAll('.question')
