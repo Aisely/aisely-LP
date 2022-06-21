@@ -180,7 +180,7 @@ nav{
   overflow: hidden;
   position: relative;
   background-color: var(--main-green);
-  height: 30vw;
+  height: 40vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,6 +223,7 @@ nav{
   width: 20vw;
 }
 .solution-text{
+  font-size: var(--xm);
   width: 40%;
   text-align: center;
 }
@@ -687,6 +688,37 @@ footer{
   }
   /* PARTNERS MOBILE */
 
+  /* PROBLEM */
+    .problem-wrapper{
+      padding: 7vw 4vw;
+    }
+    .problem-text{
+      font-size: calc(var(--s) - 3px);
+      width: 100%;
+    }
+    .solution-text{
+      font-size: calc(var(--s) - 3px);
+    }
+    .solution-wrapper{
+      padding: 7vw 4vw;
+      /* display: none; */
+      flex-direction: column;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+    }
+    .solution-text{
+      width: 100%;
+    }
+    .solution-ani{
+      display: none;
+    }
+  
+  /* PROBLEM */
+
+
+
+
 
   /* HOW IT WORKS MOBILE */
   .how-it-works{
@@ -774,6 +806,10 @@ footer{
     width: 100%;
     margin-bottom: 10vw;
   }
+ 
+ 
+ 
+ 
   /* MVP MOBILE*/
   .mvp{
     height: 200vw;
