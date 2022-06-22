@@ -225,7 +225,7 @@ nav{
 .solution-text{
   font-size: var(--xm);
   width: 40%;
-  text-align: center;
+  text-align: left;
 }
 /* PROBLEM */
 
