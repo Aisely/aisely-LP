@@ -459,6 +459,17 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* HELP CENTER */
 .help{
   height: 77vw;
@@ -505,6 +516,14 @@ footer{
 }
 
 
+
+
+
+
+
+
+
+
 /* WHY AISELY */
 .why-aisely{
 
@@ -542,9 +561,18 @@ footer{
 
 
 
-
-
-
+/* ABOUT PAGE */
+.about-img{
+  border: 1px solid black;
+}
+.about-wrapper{
+  flex-direction: row;
+}
+.about-body{
+  margin-top: 4vw;
+  text-indent: 20px;
+  width: 60%;
+}
 
 
 
@@ -945,4 +973,6 @@ footer{
     width: 100%;
     margin-top: 20vw;
   }
+
+
 }
