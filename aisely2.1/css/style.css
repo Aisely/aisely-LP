@@ -562,16 +562,24 @@ footer{
 
 
 /* ABOUT PAGE */
+.about{
+  /* height: 45vw; */
+}
 .about-img{
-  border: 1px solid black;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .about-wrapper{
-  flex-direction: row;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 4vw;
+  gap: 4rem;
 }
 .about-body{
-  margin-top: 4vw;
   text-indent: 20px;
-  width: 60%;
+  width: 50%;
 }
 
 
@@ -974,5 +982,19 @@ footer{
     margin-top: 20vw;
   }
 
+  /* ABOUT PAGE MOBILE */
+  .about{
 
+    margin-top: 30vw;
+  }
+  .about-body{
+    width: auto;
+    text-align: center;
+  }
+  .about-wrapper{
+    flex-direction: column;
+  }
+  .about-img{
+  display: none;    
+  }
 }

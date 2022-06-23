@@ -82,6 +82,7 @@ faq.addEventListener("click", () => {
 
 // --------WEBMVP TOGGLE FORM
 const webMvp = document.querySelector('.web-mvp');
+const contactUs = document.querySelector('.contact-us_about');
 const smallBtn = document.querySelectorAll('.small-btn');
 const largeBtn = document.querySelectorAll('.large-btn');
 const largeBtnWrapper = document.querySelector('.large-btn-wrapper');
@@ -107,6 +108,12 @@ for (let i = 2; i < smallBtn.length; i++) {
     webMvp.style.display = 'flex'
   })
 }
+
+contactUs.addEventListener('click', () => {
+  webMvp.style.top = '0'
+  webMvp.style.position = 'absolute'
+  webMvp.style.display = 'flex'
+})
 
 //CLOSE BTN
 closeWebMvp.addEventListener('click', () => {
