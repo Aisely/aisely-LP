@@ -179,7 +179,7 @@ nav{
 .problem-wrapper{
   overflow: hidden;
   position: relative;
-  background-color: var(--main-green);
+  background-color: var(--cyan-rect);
   height: 40vw;
   display: flex;
   justify-content: center;
@@ -204,7 +204,7 @@ nav{
   text-align: center;
 }
 .problem-ani{
-  border-bottom: 2px solid var(--white);
+  border-bottom: 2px solid var(--black);
 }
 .solution-wrapper{
   height: 40vw;
@@ -418,7 +418,7 @@ line-height: 2vw;;
 .banner-wrapper h2{
   line-height: 4.9vw;
   margin-bottom: 2vw;
-  color: var(--white)!important;
+  color: var(--black)!important;
 }
 .banner-img{
   width: 30vw;
